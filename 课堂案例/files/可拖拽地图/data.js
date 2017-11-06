@@ -1,0 +1,69 @@
+﻿$axure.loadCurrentPage({
+  "url":"可拖拽地图.html",
+  "generationDate":new Date(1509935911611.72),
+  "isCanvasEnabled":false,
+  "variables":["path",
+"sortfilter"],
+  "page":{
+    "packageId":"4012fdc0031345cfacb1240c78522615",
+    "type":"Axure:Page",
+    "name":"可拖拽地图",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"4a159fc5e97341858f48bc6dba6d1c7f",
+          "label":"",
+          "type":"inlineFrame",
+          "styleType":"inlineFrame",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":20,
+              "y":10},
+            "size":{
+              "width":520,
+              "height":330}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"7ad73717d2fc403bb95a7256ebcc1b9e",
+          "label":"",
+          "type":"inlineFrame",
+          "styleType":"inlineFrame",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":20,
+              "y":360},
+            "size":{
+              "width":520,
+              "height":280}},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "4a159fc5e97341858f48bc6dba6d1c7f":{
+      "scriptId":"u0"},
+    "7ad73717d2fc403bb95a7256ebcc1b9e":{
+      "scriptId":"u1"}}});

@@ -1,0 +1,495 @@
+﻿$axure.loadCurrentPage({
+  "url":"中继器.html",
+  "generationDate":new Date(1509935912627.94),
+  "isCanvasEnabled":false,
+  "variables":["path",
+"sortfilter"],
+  "page":{
+    "packageId":"c012514f266746a8b6c30f28326924f4",
+    "type":"Axure:Page",
+    "name":"中继器",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"d1267963d8c24f2e881f82310fa4b448",
+          "label":"",
+          "type":"repeater",
+          "styleType":"repeater",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":280,
+              "y":190},
+            "size":{
+              "width":250,
+              "height":150}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onItemLoad":{
+              "description":"OnItemLoad",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set text on id equal to &quot;[[Item.id]]&quot;, and<br> text on name equal to &quot;[[Item.name]]&quot;, and<br> text on age equal to &quot;[[Item.age]]&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["a2ba69deb7ab4a91b38f5ecfce3c1a49"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"[[Item.id]]",
+                                "localVariables":{
+},
+                                "stos":[{
+                                    "sto":"item",
+                                    "name":"id",
+                                    "isTarget":false}]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["13f00e85793f4780993a2972cf6e6355"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"[[Item.name]]",
+                                "localVariables":{
+},
+                                "stos":[{
+                                    "sto":"item",
+                                    "name":"name",
+                                    "isTarget":false}]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["6411eb5308dc4575a8dd7a11df6c2bd1"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"[[Item.age]]",
+                                "localVariables":{
+},
+                                "stos":[{
+                                    "sto":"item",
+                                    "name":"age",
+                                    "isTarget":false}]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}},
+{
+                      "action":"setImage",
+                      "description":"Set img image to [[Item.img]]",
+                      "imagesToSet":[{
+                          "objectPath":["75f9d56e452640e78518fb4a2d9f9358"],
+                          "base":{
+                            "normal":{
+                              "literal":{
+                                "exprType":"stringLiteral",
+                                "value":"[[Item.img]]",
+                                "localVariables":{
+},
+                                "stos":[{
+                                    "sto":"item",
+                                    "name":"img",
+                                    "isTarget":false}]}}},
+                          "adaptive":{
+}}]}]}]}},
+          "repeaterPropMap":{
+            "isolateRadio":true,
+            "isolateSelection":true,
+            "default":{
+              "loadLocalDefault":true,
+              "wrap":-1,
+              "vertical":true,
+              "horizontalSpacing":0,
+              "verticalSpacing":0,
+              "hasAltColor":false,
+              "itemsPerPage":-1,
+              "currPage":1,
+              "backColor":{
+                "r":255,
+                "g":255,
+                "b":255,
+                "a":0},
+              "altColor":{
+                "r":255,
+                "g":255,
+                "b":255,
+                "a":0}},
+            "":{
+              "width":510,
+              "height":190,
+              "loadLocalDefault":true,
+              "horizontalSpacing":10,
+              "verticalSpacing":10,
+              "hasAltColor":true,
+              "currPage":1,
+              "backColor":{
+                "r":102,
+                "g":51,
+                "b":255,
+                "a":1},
+              "altColor":{
+                "r":0,
+                "g":204,
+                "b":102,
+                "a":1}}},
+          "objects":[{
+              "id":"6803b46b5d4c42d0acd562932651523a",
+              "label":"id",
+              "type":"buttonShape",
+              "styleType":"buttonShape",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":100,
+                  "height":90}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"a2ba69deb7ab4a91b38f5ecfce3c1a49",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":100,
+                      "height":90}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/中继器/id_u1.png"}},
+{
+              "id":"a34c86a7469f41e1b20c776f96ed0305",
+              "label":"name",
+              "type":"buttonShape",
+              "styleType":"buttonShape",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":100,
+                  "y":0},
+                "size":{
+                  "width":100,
+                  "height":90}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"13f00e85793f4780993a2972cf6e6355",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":100,
+                      "y":0},
+                    "size":{
+                      "width":100,
+                      "height":90}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/中继器/id_u1.png"}},
+{
+              "id":"09312bfb9cd74554b41cf5d88232c736",
+              "label":"age",
+              "type":"buttonShape",
+              "styleType":"buttonShape",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "selected":{
+                    "fontSize":"20px",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFF0000,
+                      "opacity":1}}},
+                "location":{
+                  "x":200,
+                  "y":0},
+                "size":{
+                  "width":100,
+                  "height":90}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"6411eb5308dc4575a8dd7a11df6c2bd1",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "stateStyles":{
+                      "selected":{
+                        "fontSize":"20px",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFF0000,
+                          "opacity":1}}},
+                    "location":{
+                      "x":200,
+                      "y":0},
+                    "size":{
+                      "width":100,
+                      "height":90}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/中继器/id_u1.png",
+                "selected~":"images/中继器/id_u1.png"}},
+{
+              "id":"75f9d56e452640e78518fb4a2d9f9358",
+              "label":"img",
+              "type":"imageBox",
+              "styleType":"imageBox",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":120,
+                  "y":100},
+                "size":{
+                  "width":100,
+                  "height":90}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"9477206d47f14120bf577dcf6eae5e38",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":120,
+                      "y":100},
+                    "size":{
+                      "width":100,
+                      "height":90}},
+                  "adaptiveStyles":{
+}}],
+              "interactionMap":{
+                "onClick":{
+                  "description":"OnClick",
+                  "cases":[{
+                      "description":"Case 1",
+                      "isNewIfGroup":false,
+                      "actions":[{
+                          "action":"linkWindow",
+                          "description":"Open [[Item.link]] in Current Window",
+                          "target":{
+                            "targetType":"webUrl",
+                            "urlLiteral":{
+                              "exprType":"stringLiteral",
+                              "value":"[[Item.link]]",
+                              "localVariables":{
+},
+                              "stos":[{
+                                  "sto":"item",
+                                  "name":"link",
+                                  "isTarget":false}]},
+                            "includeVariables":false},
+                          "linkType":"current"}]}]}},
+              "tabbable":true,
+              "images":{
+                "normal~":"images/中继器/img_u7.png"}},
+{
+              "id":"9e1748f856674fceb6943b531b14f22c",
+              "label":"choose",
+              "type":"radioButton",
+              "styleType":"radioButton",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":410,
+                  "y":37},
+                "size":{
+                  "width":100,
+                  "height":16}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"0192527315234ea9ba07996367876083",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":410,
+                      "y":37},
+                    "size":{
+                      "width":100,
+                      "height":16}},
+                  "adaptiveStyles":{
+}}],
+              "interactionMap":{
+                "onCheckedChange":{
+                  "description":"OnCheckedChange",
+                  "cases":[{
+                      "description":"Case 1<br> (If &quot;[[Item.age]]&quot; is less than &quot;18&quot;)",
+                      "isNewIfGroup":false,
+                      "condition":{
+                        "exprType":"binaryOp",
+                        "op":"<",
+                        "leftExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"[[Item.age]]",
+                          "localVariables":{
+},
+                          "stos":[{
+                              "sto":"item",
+                              "name":"age",
+                              "isTarget":false}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"18",
+                          "stos":[]}},
+                      "actions":[{
+                          "action":"setFunction",
+                          "description":"Set is selected of age equal to &quot;toggle&quot;",
+                          "expr":{
+                            "exprType":"block",
+                            "subExprs":[{
+                                "exprType":"fcall",
+                                "functionName":"SetCheckState",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":false,
+                                    "isFocused":false,
+                                    "isTarget":false,
+                                    "value":["09312bfb9cd74554b41cf5d88232c736"]},
+{
+                                    "exprType":"stringLiteral",
+                                    "value":"toggle",
+                                    "stos":[]}]}]}}]}]}}}],
+          "data":[{
+              "id":{
+                "type":"text",
+                "text":"1"},
+              "name":{
+                "type":"text",
+                "text":"张三"},
+              "age":{
+                "type":"text",
+                "text":"15"},
+              "img":{
+                "type":"image",
+                "text":"IMG20170316134333.jpg",
+                "img":"images/中继器/u9bdb34a6226643bba67cfdafab6270c4-0.jpg"},
+              "link":{
+                "type":"page",
+                "text":""}},
+{
+              "id":{
+                "type":"text",
+                "text":"2"},
+              "name":{
+                "type":"text",
+                "text":"王五"},
+              "age":{
+                "type":"text",
+                "text":"2"},
+              "img":{
+                "type":"image",
+                "text":"9A044D3F072ECFCF28A49C7C8075EC00.jpg",
+                "img":"images/中继器/u9bdb34a6226643bba67cfdafab6270c4-1.jpg"},
+              "link":{
+                "type":"page",
+                "text":""}},
+{
+              "id":{
+                "type":"text",
+                "text":"3"},
+              "name":{
+                "type":"text",
+                "text":"李四"},
+              "age":{
+                "type":"text",
+                "text":"62"},
+              "img":{
+                "type":"image",
+                "text":"aio_ship_star2.png",
+                "img":"images/中继器/u9bdb34a6226643bba67cfdafab6270c4-2.png"},
+              "link":{
+                "type":"page",
+                "text":""}}],
+          "dataProps":["id",
+"name",
+"age",
+"img",
+"link"]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "d1267963d8c24f2e881f82310fa4b448":{
+      "scriptId":"u0"},
+    "6803b46b5d4c42d0acd562932651523a":{
+      "scriptId":"u1"},
+    "a2ba69deb7ab4a91b38f5ecfce3c1a49":{
+      "scriptId":"u2"},
+    "a34c86a7469f41e1b20c776f96ed0305":{
+      "scriptId":"u3"},
+    "13f00e85793f4780993a2972cf6e6355":{
+      "scriptId":"u4"},
+    "09312bfb9cd74554b41cf5d88232c736":{
+      "scriptId":"u5"},
+    "6411eb5308dc4575a8dd7a11df6c2bd1":{
+      "scriptId":"u6"},
+    "75f9d56e452640e78518fb4a2d9f9358":{
+      "scriptId":"u7"},
+    "9477206d47f14120bf577dcf6eae5e38":{
+      "scriptId":"u8"},
+    "9e1748f856674fceb6943b531b14f22c":{
+      "scriptId":"u9"},
+    "0192527315234ea9ba07996367876083":{
+      "scriptId":"u10"}}});

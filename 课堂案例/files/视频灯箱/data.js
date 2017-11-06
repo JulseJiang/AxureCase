@@ -1,0 +1,216 @@
+﻿$axure.loadCurrentPage({
+  "url":"视频灯箱.html",
+  "generationDate":new Date(1509935912355.41),
+  "isCanvasEnabled":false,
+  "variables":["path",
+"sortfilter"],
+  "page":{
+    "packageId":"ceadca9b699d4b8794a6f31b756766f0",
+    "type":"Axure:Page",
+    "name":"视频灯箱",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"d0dcdcd42fb84c04baaa469c8ce5eb18",
+          "label":"",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":100,
+              "y":2180},
+            "size":{
+              "width":300,
+              "height":230}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Show (Dynamic Panel) treat as lightbox",
+                      "objectsToFades":[{
+                          "objectPath":["ed650574be5a4cd98a6dd83e10655bee"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"lightbox",
+                              "lightbox":{
+                                "r":47,
+                                "g":79,
+                                "b":79,
+                                "a":155}}}}]}]}]}},
+          "tabbable":true,
+          "fixedHorizontal":"center",
+          "fixedMarginHorizontal":0,
+          "fixedVertical":"middle",
+          "fixedMarginVertical":0,
+          "fixedKeepInFront":true,
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"d39eccab25be4407bdf9ed71ac81d1d3",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"c914bb9f44a1479287cdd29558ebbba0",
+                  "label":"",
+                  "parentDynamicPanel":"d0dcdcd42fb84c04baaa469c8ce5eb18",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":299,
+                      "height":230}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"1f748f435db44c8c8c3982a42f259ae5",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"d0dcdcd42fb84c04baaa469c8ce5eb18",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":299,
+                          "height":230}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/视频灯箱/u1.jpg"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"ed650574be5a4cd98a6dd83e10655bee",
+          "label":"",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":100,
+              "y":2180},
+            "size":{
+              "width":520,
+              "height":450},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "fixedHorizontal":"center",
+          "fixedMarginHorizontal":0,
+          "fixedVertical":"middle",
+          "fixedMarginVertical":0,
+          "fixedKeepInFront":true,
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"5384331647374714a02821d5925eb99c",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"8a8805c25dd348bda1721a40c53ecc88",
+                  "label":"",
+                  "parentDynamicPanel":"ed650574be5a4cd98a6dd83e10655bee",
+                  "type":"inlineFrame",
+                  "styleType":"inlineFrame",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":520,
+                      "height":400}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"8b6183a2d6fb49d2bfae65e579fa5ccc",
+                  "label":"",
+                  "parentDynamicPanel":"ed650574be5a4cd98a6dd83e10655bee",
+                  "type":"button",
+                  "styleType":"button",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":210,
+                      "y":415},
+                    "size":{
+                      "width":100,
+                      "height":25}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"Open 视频灯箱 in Current Window",
+                              "target":{
+                                "targetType":"page",
+                                "url":"视频灯箱.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "d0dcdcd42fb84c04baaa469c8ce5eb18":{
+      "scriptId":"u0"},
+    "c914bb9f44a1479287cdd29558ebbba0":{
+      "scriptId":"u1"},
+    "1f748f435db44c8c8c3982a42f259ae5":{
+      "scriptId":"u2"},
+    "ed650574be5a4cd98a6dd83e10655bee":{
+      "scriptId":"u3"},
+    "8a8805c25dd348bda1721a40c53ecc88":{
+      "scriptId":"u4"},
+    "8b6183a2d6fb49d2bfae65e579fa5ccc":{
+      "scriptId":"u5"}}});
